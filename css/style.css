@@ -154,7 +154,7 @@ p {
   padding-bottom: 32px;
   display: block;
 
-  transition-property: background-color, color;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
@@ -205,7 +205,7 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
 
-  transition-property: background-color, color;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
@@ -247,6 +247,11 @@ p {
   fill: var(--second-text-color);
 
   margin-right: 10px;
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 
 /* main */
@@ -512,7 +517,7 @@ p {
 }
 
 .card-social .link {
-  transition-property: background-color, color, fill, border-radius;
+  transition-property: background-color, fill, border-radius;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
@@ -540,6 +545,11 @@ p {
 
 .card-social .icon {
   fill: var(--company-logo-color);
+
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
 }
 
 /* clients */
@@ -827,14 +837,14 @@ p {
 
   border-style: solid;
   border-radius: 4px;
-  border-color: var(--section-team-back-color);
+  border: 0;
 
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
 
-  transition-property: background-color, color, border-color, box-shadow;
+  transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
@@ -970,7 +980,7 @@ p {
 
   transform: translateY(100%);
   visibility: hidden;
-  transition-property: opacity transform;
+  transition-property: opacity, transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
